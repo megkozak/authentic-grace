@@ -32,23 +32,12 @@ html, body {
     opacity: .7;
 }
 
-/* div.container-gallery {
-  width: 100%;
-  height: auto;
+#gallery {
+position:relative;
+margin:40px 0;
 }
 
-div.row {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+#image-container img {
+ float: left;
+ width: 33.33%;
 }
-
-/* div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-} */ */
