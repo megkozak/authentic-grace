@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ 
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #ECBE9D;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Saving Grace Blog</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Outfit Ideas</a></li>
+        <li><a href="#section2">Style</a></li>
+        <li><a href="#section3">Essentials</a></li>
+        <li><a href="#section3">Beauty</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>Top 5 items to pack for a beach trip</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Lady GlitterSparkles, May 27, 2018.</h5>
+      <h5><span class="label label-danger">style</span> <span class="label label-primary">Essentials</span></h5><br>
+      <img src="https://imgur.com/XXb4FdG">
+      <p>Wondering what you should plan for your next trip to paradise? wonder no more, we have your top 5 essentials that will make sure you have a relaxing and comfortable beach vacation. We've all been there, we decide an impromput beach trip is the best thing to do for the lazy Sunday, so you head to the store for some snacks and wine.. I mean, hydrating fruit juice ; ) First on the list is of course sunscreen! We recommend Elta MD clear broad spectrum. Its great for your skin and can be purchased at most retailers near you.. </p>
+      <br><br>
+      
+      
+      <h2>3 Hottest Summer Trends</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Fabulous Franny, April 24, 2018.</h5>
+      <h5><span class="label label-success">Trends</span></h5><br>
+      <img src="https://imgur.com/DBe1fFY">
+      <p>Its almost that time again where we break out the shorts and sunglasses! Are you ready for summer? I know I am, I'm ready for the late nights sitting on the porch with a nice glass of wine listening to the summer sounds. Ready for the many bar-b-ques we always have for one reason or another. Is your wardrobe ready? This year there are some new noteworthy trends we want to share with you so you can keep being the fashion forward friend in your group. The first trend comes straight from Paris fashion week and we know you will love it as much as we do..</p>
+      <hr>
+
+      <h4>Leave a Comment:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">2</span> Comments:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="bandmember.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Anja <small>May 29, 2018, 9:12 PM</small></h4>
+          <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>John Row <small>April 25, 2018, 8:25 PM</small></h4>
+          <p>I am so happy for you man! Finally. I am looking forward to read about your trendy life. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>Nested Bro <small>Sep 25, 2015, 8:28 PM</small></h4>
+              <p>Me too! WOW!</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>Footer Holder</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+</html>
