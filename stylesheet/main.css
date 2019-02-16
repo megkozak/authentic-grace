@@ -2,11 +2,11 @@ html, body {
     height: 100%;
     width: 100%;
 }
-
-.container-fluid {
+/* banner */
+.banner-container {
     background-image: url("https://i.imgur.com/LET0A8u.jpg");
     height: 300px;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.8;
@@ -18,7 +18,7 @@ html, body {
    font-family: rockwell;
    font-style: italic;
    padding: 85px;
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .sale-btn {
@@ -32,12 +32,20 @@ html, body {
     opacity: .7;
 }
 
-#gallery {
-position:relative;
-margin:40px 0;
+.category-container {
+    display: flex;
+    justify-content: space-around;
 }
 
-/* #image-container {
- float: left;
- width: 33.33%;
-} */
+.categories {
+    font-family: rockwell;
+    text-align: center;
+}
+
+.row img {
+    height: 200px;
+    width: 200px;
+    padding:inherit;
+    margin: 20px 20px 20px 20px;
+    object-fit: cover;
+}
