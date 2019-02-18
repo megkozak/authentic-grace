@@ -5,23 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
       <link rel="stylesheet" href="stylesheet/main.css" type="text/css" >
-
-    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Bootstrap CSS link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    <title>Authentic Grace</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
       </head>
 
     <body>
-        <div class="header">
-          <p>This is where the header is going.</p>
+      <!-- Promo navbar -->
+      <nav class="navbar navbar-light" style="background-color:#637059;">
+        <a class="navbar-brand-alert-alert-link" role="alert" style="color: #FFFFFF;">FREE shipping on orders over $100! <a href="#" class="alert-link" style="color: #ECBE9D;">Use PromoCode: Free2019</a></a>
+        <form class="form-inline">
+            <button class="btn btn-lg btn" type="button" style="color:#FFFFFF; padding: 10px;">Sign In</button>
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <!-- <button class="btn btn-my-2 my-sm-0" type="submit" style="color: #FFFFFF;">Search</button> -->
+          <i class="fas fa-search" style="color: #FFFFFF;"></i>
+        </form>
+      </nav>
+
+            <!-- logo -->
+        <div class="header-container .container-fluid">
+          <div class="col-md-12">
+          <img src="https://i.imgur.com/EEn8q4N.jpg" alt="responsive image" class=".img-fluid">
         </div>
-        <!-- Shop Sale with image and button -->
-        <div class="banner-container container-fluid">
-          <div>
-            <h4 class="summer-banner">Get summer ready <br>with our<br> summer specials</h4>
-            <a href="#" class="sale-btn btn-default btn-lg border mt-0">Shop Sale</a>
+      </div>
+
+<!-- Trying to rewrite code her to align Subcribe button and cart on the right of navbar -->
+      <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Acme</a>
+        <div class="collapse navbar-collapse justify-content-between" id="navbar">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">Ball Bearings</a>
+            <a class="nav-item nav-link" href="#">TNT Boxes</a>
+          </div>
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">Logout</a>
+          </div>
         </div>
-        </div>
+      </nav>
+
+    
+
+      <!--trial navbar-->
+      <div  class="container-fluid">
+          <nav class="navbar navbar-expand-sm navbar-light " >
+              
+              <div class="navbar-collapse collapse top-nav">
+                  <ul class="navbar-nav mr-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" href="index.html">Shop <span class="sr-only">(current)</span></a>
+                      </li> 
+                      <li class="nav-item">
+                          <a class="nav-link" href="about.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="blog.html">Blog</a>
+                      </li>
+      
+                  </ul>
+                  <ul class="navbar-nav">
+                      
+                      <form class="form-inline">
+                          <button class="btn btn-lg btn" type="button" style=" padding: 10px;">Subscribe for members only deals!</button>
+                        <input class="form-control mr-sm-2" type="search" placeholder="Enter Email" aria-label="Search"> 
+                      </form>
+                      <li class="nav-item">
+                         <!-- <a class="nav-link" href="#cart">Cart</a> -->
+                          <i class="fas fa-shopping-cart cart"></i>
+                      </li>
+                  </ul>
+              </div>
+          </nav>
+      </div>
+
+
+
+
+
+
+
+
 
     <!-- Page Content -->
    <!-- <div class="container"> -->
@@ -193,6 +259,7 @@
               
             </div>
           </footer>
+
 
 
       <script src="index.js"></script>
