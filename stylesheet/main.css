@@ -61,16 +61,21 @@ html, body {
     
 /* Set gray background color and 100% height */
 .sidenav {
-  background-color: #f1f1f1;
+  background-color: #fdf0f2;
   height: 100%;
 }
 
 /* Set black background color, white text and some padding */
 .footer {
-  background-color: #ECBE9D;
+  background-image: url("https://i.imgur.com/dnEYTTbt.jpg");
   color: white;
   padding: 15px;
-  height: 383px;
+  height: 363px;
+  font-family: rockwell;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .4;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
@@ -80,4 +85,12 @@ html, body {
     padding: 15px;
   }
   .row.content {height: auto;} 
+}
+
+.header-font{
+    font-family: rockwell;
+}
+
+.body-font{
+    font-family: georgia;
 }
