@@ -12,10 +12,10 @@ html, body {
     /* background: fixed center no-repeat; */
     display: cover;
 }
-.pull-right {
+/* .pull-right {
   float: right;
 
-}
+} */
 /* banner */
 .banner-container {
     background-image: url("https://i.imgur.com/LET0A8u.jpg");
