@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <title>Blog</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="stylesheet/main.css" type="text/css" >
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -11,36 +11,79 @@
 </head>
 <body>
 
-   <!-- Promo navbar -->
-   <nav class="navbar navbar-light" style="background-color:#637059;">
-      <a class="navbar-brand-alert-alert-link" role="alert" style="color: #FFFFFF;">FREE shipping on orders over $100! <a href="#" class="alert-link" style="color: #ECBE9D;">Use PromoCode: Free2019</a></a>
-      <form class="form-inline">
-          <button class="btn btn-lg btn" type="button" style="color:#FFFFFF; padding: 10px;">Sign In</button>
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <!-- <button class="btn btn-my-2 my-sm-0" type="submit" style="color: #FFFFFF;">Search</button> -->
-        <i class="fas fa-search" style="color: #FFFFFF;"></i>
-      </form>
-    </nav>
+    <nav class="navbar navbar-light" style="background-color:#637059;">
+        <a class="navbar-brand-alert-alert-link" role="alert" style="color: #FFFFFF;">FREE shipping on orders over $100! <a href="#" class="alert-link" style="color: #ECBE9D;">Use PromoCode: Free2019</a></a>
+        <form class="form-inline">
+            <button class="btn btn-lg btn" type="button" style="color:#FFFFFF; padding: 10px;">Sign In</button>
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <!-- <button class="btn btn-my-2 my-sm-0" type="submit" style="color: #FFFFFF;">Search</button> -->
+          <i class="fas fa-search" style="color: #FFFFFF;"></i>
+        </form>
+      </nav>
 
-<div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sidenav">
-      <h4 class="header-font">Authentic Grace Blog</h4>
-      <ul class="nav nav-pills nav-stacked body-font">
-        <li class="active"><a href="#recent-posts">Recent Posts</a></li>
-        <li><a href="#style">Style</a></li>
-        <li><a href="#essentials">Essentials</a></li>
-        <li><a href="#beauty">Beauty</a></li>
-      </ul><br>
-      <div class="input-group">
-        <input type="text" class="form-control body-font" placeholder="Search Blog..">
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="button">
-            <span class="glyphicon glyphicon-search"></span>
-          </button>
-        </span>
+        <!-- logo * trying to match header branch changes
+        <div class="header-container .container-fluid">
+            <div class="col-md-12">
+            <img src="https://i.imgur.com/EEn8q4N.jpg" alt="responsive image" class=".img-fluid">
+          </div>
+        </div> -->
+    
+        <!-- logo -->
+        <div class="header-container">
+            <div class="jumbotron"></div>
+            </div>
+
+      <!--main navbar-->
+      <div  class="container-fluid">
+          <nav class="navbar navbar-expand-sm navbar-light " >
+              
+              <div class="navbar-collapse collapse top-nav">
+                  <ul class="navbar-nav mr-auto" >
+                      <li class="nav-item">
+                          <a class="nav-link" href="index.html">Shop <span class="sr-only">(current)</span></a>
+                      </li> 
+                      <li class="nav-item">
+                          <a class="nav-link" href="about.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="blog.html">Blog</a>
+                      </li>
+      
+                  </ul>
+                  <ul class="navbar-nav">
+                      
+                      <form class="form-inline">
+                          <button class="btn btn-lg btn" type="button" style=" padding: 10px;">Subscribe for members only deals!</button>
+                        <input class="form-control mr-sm-2" type="search" placeholder="Enter Email" aria-label="Search"> 
+                      </form>
+                      <li class="nav-item">
+                         <!-- <a class="nav-link" href="#cart">Cart</a> -->
+                          <i class="fas fa-shopping-cart cart"></i>
+                      </li>
+                  </ul>
+              </div>
+          </nav>
       </div>
-    </div>
+
+      <div class="container-fluid">
+          <div class="row content">
+            <div class="col-sm-3 sidenav">
+              <h4 class="header-font">Authentic Grace Blog</h4>
+              <ul class="nav nav-pills nav-stacked body-font">
+                <li class="active"><a href="#recent-posts">Recent Posts</a></li>
+                <li><a href="#style">Style</a></li>
+                <li><a href="#essentials">Essentials</a></li>
+                <li><a href="#beauty">Beauty</a></li>
+              </ul><br>
+              <div class="input-group">
+                <input type="text" class="form-control body-font" placeholder="Search Blog..">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">
+                    <span class="glyphicon glyphicon-search"></span>
+                  </button>
+                </span>
+              </div>
+            </div>
 
     <div class="col-sm-9">
       <h4 class="body-font"><small>RECENT POSTS</small></h4>
@@ -103,48 +146,92 @@
   </div>
 </div>
 
-  <footer>
-  <div class="container-fluid footer "> 
-    <div class="row">
-      <div class="col-sm-4 col-med-4">
-       <h3> Contact Us<br></h3>
-        &nbsp;
-         <p> <i class="fas fa-envelope"></i><br>
-          support@authenticgrace.com<br>
-          orders@authenticgrace.com<br>&nbsp;</p>
-          
-          <p><i class="fas fa-map-marker-alt"></i><br>
-          123 Beauty st.<br>
-          Charleston, SC 29401<br>&nbsp;</p>
-          <p><i class="fas fa-phone"></i><br>
-          (843)123-456</p>
-        
-      </div>
+<footer class="page-footer font small pt-4">
+    <div class="container-fluid text-center text-md-center">
+      <div class="row">
 
-      <div class="col-sm-4 col-med-4">
-       <h2> Lets Get Social<br></h3>
-          <h2><i class="fab fa-pinterest"></i>&nbsp;
-          <i class="fab fa-instagram"></i>&nbsp;
-          <i class="fab fa-facebook-square"></i>&nbsp;
-          <i class="fab fa-twitter-square"></i>&nbsp;
-          <i class="fab fa-youtube"></i><br></h2>
-          <h3>Careers<br></h3>
-          <h3>Shop<br></h3>
-          <h3>Orders & Payments</h3>
-        </div>
-      
-      <div class="col-sm-4 col-med-4">
-       <h3> SALE Items<br></h3>
-       <h3> Gift Cards<br></h3>
-       <h3> Sizing Chart<br></h3>
-       <h3> Shipping<br></h3>
-       <h3> Return Policy</h3>
+        <div class="col-md-4">
+        <h5 class="text-uppercase">Contact Us</h5>
+
+            <i class="fas fa-envelope"></i>
+            <h6>support@authenticgrace.com</h6>
+            <h6>orders@authenticgrace.com</h6>
+
+            <i class="fas fa-map-marker-alt"></i>
+            <h6>123 Beauty Street</h6>
+            <h6>Charleston, SC 29401</h6>
+
+            <i class="fas fa-phone"></i>
+            <h6>(843)123-4563</h6>
+          </div>
+
+        <div class="col-md-4">
+         <h5 class="text-uppercase">Let's Get Social</h5>&nbsp;
+         <ul class="list-unstyled list-inline text-center">
+               <li class="list-inline-item">
+                 <a class="btn-floating btn-fb mx-1">
+                   <i class="fab fa-facebook-f"> </i>
+                 </a>
+               </li>
+               <li class="list-inline-item">
+                 <a class="btn-floating btn-tw mx-1">
+                   <i class="fab fa-twitter"> </i>
+                 </a>
+               </li>
+               <li class="list-inline-item">
+                 <a class="btn-floating btn-gplus mx-1">
+                   <i class="fab fa-google-plus-g"> </i>
+                 </a>
+               </li>
+               <li class="list-inline-item">
+                 <a class="btn-floating btn-li mx-1">
+                   <i class="fab fa-linkedin-in"> </i>
+                 </a>
+               </li>
+               <li class="list-inline-item">
+                 <a class="btn-floating btn-dribbble mx-1">
+                   <i class="fab fa-dribbble"> </i>
+                 </a>
+               </li>
+             </ul>
+              <ul class ="list-unstyled">&nbsp;
+                <li>
+                  <h6><a href="#!" class="links">Careers</a></h6>
+                </li>
+                <li>
+                  <h6><a href="#!" class="links">Shop</a></h6>
+                </li>
+                <li>
+                  <h6><a href="#!" class="links">Orders & Payments</a></h6>
+                </li>
+          </div>
+
+          <div class="col-md-4">
+            <h5 class="text-uppercase">More</h5>&nbsp;
+                <ul class ="list-unstyled">
+                  <li>
+                    <h6><a href="#!" class="links">Sale Items</a></h6>
+                  </li>
+                  <li>
+                    <h6><a href="#!" class="links">Gift Cards</a></h6>
+                  </li>
+                  <li>
+                    <h6><a href="#!" class="links">Sizing Chart</a></h6></h6>
+                  </li>
+                  <li>
+                    <h6><a href="#!" class="links">Shipping</a></h6>
+                  </li>
+                  <li>
+                    <h6><a href="#!" class="links">Return Policy</a></h6>
+                  </li>
+            </div>
       </div>
-      
     </div>
-    
-  </div>
-</footer>
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://meg&mels.com" class="links"> Meg&Mel's.com</a>
+    </div>
+  </footer>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </body>

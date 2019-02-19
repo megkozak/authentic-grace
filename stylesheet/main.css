@@ -5,19 +5,32 @@ html, body {
 }
 
 
-.header-container {
+/*.header-container {
     padding: inherit;
     position: center;
     margin: 20px;
     height: auto;
     max-width: 100%;
-    /* background: fixed center no-repeat; */
+     background: fixed center no-repeat; 
     display: cover;
-}
-/* .pull-right {
-  float: right;
-
 } */
+ 
+.jumbotron {
+    background: url(https://i.imgur.com/4uJQ3gr.png) center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%; height: 30vh;
+    margin: 20px;
+    }
+    @media (max-width: 575.98px) {
+      .jumbotron {
+        height: 20vh;
+      }
+    }
+
+
+
 /* banner */
 .banner-container {
     background-image: url("https://i.imgur.com/LET0A8u.jpg");
@@ -32,7 +45,7 @@ html, body {
 
 .summer-banner {
    color: #ffff;
-   font-family: rockwell;
+   font-family: 'Montserrat', sans-serif;
    font-style: italic;
    padding: 85px;
   font-size: 30px;
@@ -40,7 +53,7 @@ html, body {
 
 .sale-btn {
     color: #F4ECEC;
-   font-family: rockwell;
+   font-family: 'Montserrat', sans-serif;
    font-style: italic;
     text-align: center;
     font-size: 48px;
@@ -55,7 +68,7 @@ html, body {
 }
 
 .categories {
-    font-family: rockwell;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -69,7 +82,7 @@ html, body {
 
  .top-nav{
      background-color: #ECBE9D;
-     font-family: rockwell;
+     font-family: 'Montserrat', sans-serif;
      
  }
 
@@ -86,11 +99,11 @@ html, body {
     
 /* Set gray background color and 100% height */
 .sidenav {
-  background-color: #fdf0f2;
+  background-color: #a19c9c;
   height: 100%;
 }
 
-/* Set black background color, white text and some padding */
+/* Set black background color, white text and some padding 
 .footer {
   background-image: url("https://i.imgur.com/dnEYTTbt.jpg");
   color: white;
@@ -101,7 +114,31 @@ html, body {
   background-size: cover;
   background-repeat: no-repeat;
   opacity: .4;
-}
+} */
+
+.page-footer {
+    background-color: #637059;
+    /* background-image: url("https://i.imgur.com/dnEYTTbt.jpg"); */
+    /* color: #000000; */
+    padding: 15px;
+    margin: 20px;
+    min-height: 300px;
+    padding: 25px 0 25px 0;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    /* opacity: 0.4; */
+    font-size: 14px;
+  
+  }
+  a:visited
+  {
+      text-decoration: none;
+      
+  }
+
 
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
@@ -113,9 +150,14 @@ html, body {
 }
 
 .header-font{
-    font-family: rockwell;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .body-font{
-    font-family: georgia;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.links {
+    color:white;
+    font-size: 14px;
 }
